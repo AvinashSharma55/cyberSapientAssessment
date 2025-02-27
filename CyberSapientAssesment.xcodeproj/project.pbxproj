@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E10651A02D70B49D000E062C /* CyberSapientAssesmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E106519F2D70B49D000E062C /* CyberSapientAssesmentApp.swift */; };
+		E10651A22D70B49D000E062C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10651A12D70B49D000E062C /* ContentView.swift */; };
+		E10651A42D70B4A6000E062C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10651A32D70B4A6000E062C /* Assets.xcassets */; };
+		E10651A72D70B4A6000E062C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10651A62D70B4A6000E062C /* Preview Assets.xcassets */; };
+		E10651A92D70B4A6000E062C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10651A82D70B4A6000E062C /* Persistence.swift */; };
+		E10651AC2D70B4A6000E062C /* CyberSapientAssesment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E10651AA2D70B4A6000E062C /* CyberSapientAssesment.xcdatamodeld */; };
+		E10651B62D70B4A6000E062C /* CyberSapientAssesmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10651B52D70B4A6000E062C /* CyberSapientAssesmentTests.swift */; };
+		E10651C02D70B4A6000E062C /* CyberSapientAssesmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10651BF2D70B4A6000E062C /* CyberSapientAssesmentUITests.swift */; };
+		E10651C22D70B4A6000E062C /* CyberSapientAssesmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10651C12D70B4A6000E062C /* CyberSapientAssesmentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E10651B22D70B4A6000E062C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E10651942D70B49D000E062C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E106519B2D70B49D000E062C;
+			remoteInfo = CyberSapientAssesment;
+		};
+		E10651BC2D70B4A6000E062C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E10651942D70B49D000E062C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E106519B2D70B49D000E062C;
+			remoteInfo = CyberSapientAssesment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E106519C2D70B49D000E062C /* CyberSapientAssesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyberSapientAssesment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E106519F2D70B49D000E062C /* CyberSapientAssesmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberSapientAssesmentApp.swift; sourceTree = "<group>"; };
+		E10651A12D70B49D000E062C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E10651A32D70B4A6000E062C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E10651A62D70B4A6000E062C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E10651A82D70B4A6000E062C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E10651AB2D70B4A6000E062C /* CyberSapientAssesment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CyberSapientAssesment.xcdatamodel; sourceTree = "<group>"; };
+		E10651B12D70B4A6000E062C /* CyberSapientAssesmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyberSapientAssesmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10651B52D70B4A6000E062C /* CyberSapientAssesmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberSapientAssesmentTests.swift; sourceTree = "<group>"; };
+		E10651BB2D70B4A6000E062C /* CyberSapientAssesmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyberSapientAssesmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10651BF2D70B4A6000E062C /* CyberSapientAssesmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberSapientAssesmentUITests.swift; sourceTree = "<group>"; };
+		E10651C12D70B4A6000E062C /* CyberSapientAssesmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberSapientAssesmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E10651992D70B49D000E062C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10651AE2D70B4A6000E062C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10651B82D70B4A6000E062C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10651932D70B49D000E062C = {
+			isa = PBXGroup;
+			children = (
+				E106519E2D70B49D000E062C /* CyberSapientAssesment */,
+				E10651B42D70B4A6000E062C /* CyberSapientAssesmentTests */,
+				E10651BE2D70B4A6000E062C /* CyberSapientAssesmentUITests */,
+				E106519D2D70B49D000E062C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E106519D2D70B49D000E062C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E106519C2D70B49D000E062C /* CyberSapientAssesment.app */,
+				E10651B12D70B4A6000E062C /* CyberSapientAssesmentTests.xctest */,
+				E10651BB2D70B4A6000E062C /* CyberSapientAssesmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E106519E2D70B49D000E062C /* CyberSapientAssesment */ = {
+			isa = PBXGroup;
+			children = (
+				E106519F2D70B49D000E062C /* CyberSapientAssesmentApp.swift */,
+				E10651A12D70B49D000E062C /* ContentView.swift */,
+				E10651A32D70B4A6000E062C /* Assets.xcassets */,
+				E10651A82D70B4A6000E062C /* Persistence.swift */,
+				E10651AA2D70B4A6000E062C /* CyberSapientAssesment.xcdatamodeld */,
+				E10651A52D70B4A6000E062C /* Preview Content */,
+			);
+			path = CyberSapientAssesment;
+			sourceTree = "<group>";
+		};
+		E10651A52D70B4A6000E062C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E10651A62D70B4A6000E062C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E10651B42D70B4A6000E062C /* CyberSapientAssesmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				E10651B52D70B4A6000E062C /* CyberSapientAssesmentTests.swift */,
+			);
+			path = CyberSapientAssesmentTests;
+			sourceTree = "<group>";
+		};
+		E10651BE2D70B4A6000E062C /* CyberSapientAssesmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E10651BF2D70B4A6000E062C /* CyberSapientAssesmentUITests.swift */,
+				E10651C12D70B4A6000E062C /* CyberSapientAssesmentUITestsLaunchTests.swift */,
+			);
+			path = CyberSapientAssesmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E106519B2D70B49D000E062C /* CyberSapientAssesment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10651C52D70B4A6000E062C /* Build configuration list for PBXNativeTarget "CyberSapientAssesment" */;
+			buildPhases = (
+				E10651982D70B49D000E062C /* Sources */,
+				E10651992D70B49D000E062C /* Frameworks */,
+				E106519A2D70B49D000E062C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CyberSapientAssesment;
+			productName = CyberSapientAssesment;
+			productReference = E106519C2D70B49D000E062C /* CyberSapientAssesment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E10651B02D70B4A6000E062C /* CyberSapientAssesmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10651C82D70B4A6000E062C /* Build configuration list for PBXNativeTarget "CyberSapientAssesmentTests" */;
+			buildPhases = (
+				E10651AD2D70B4A6000E062C /* Sources */,
+				E10651AE2D70B4A6000E062C /* Frameworks */,
+				E10651AF2D70B4A6000E062C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E10651B32D70B4A6000E062C /* PBXTargetDependency */,
+			);
+			name = CyberSapientAssesmentTests;
+			productName = CyberSapientAssesmentTests;
+			productReference = E10651B12D70B4A6000E062C /* CyberSapientAssesmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E10651BA2D70B4A6000E062C /* CyberSapientAssesmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10651CB2D70B4A6000E062C /* Build configuration list for PBXNativeTarget "CyberSapientAssesmentUITests" */;
+			buildPhases = (
+				E10651B72D70B4A6000E062C /* Sources */,
+				E10651B82D70B4A6000E062C /* Frameworks */,
+				E10651B92D70B4A6000E062C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E10651BD2D70B4A6000E062C /* PBXTargetDependency */,
+			);
+			name = CyberSapientAssesmentUITests;
+			productName = CyberSapientAssesmentUITests;
+			productReference = E10651BB2D70B4A6000E062C /* CyberSapientAssesmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10651942D70B49D000E062C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E106519B2D70B49D000E062C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E10651B02D70B4A6000E062C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E106519B2D70B49D000E062C;
+					};
+					E10651BA2D70B4A6000E062C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E106519B2D70B49D000E062C;
+					};
+				};
+			};
+			buildConfigurationList = E10651972D70B49D000E062C /* Build configuration list for PBXProject "CyberSapientAssesment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E10651932D70B49D000E062C;
+			productRefGroup = E106519D2D70B49D000E062C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E106519B2D70B49D000E062C /* CyberSapientAssesment */,
+				E10651B02D70B4A6000E062C /* CyberSapientAssesmentTests */,
+				E10651BA2D70B4A6000E062C /* CyberSapientAssesmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E106519A2D70B49D000E062C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10651A72D70B4A6000E062C /* Preview Assets.xcassets in Resources */,
+				E10651A42D70B4A6000E062C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10651AF2D70B4A6000E062C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10651B92D70B4A6000E062C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10651982D70B49D000E062C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10651A92D70B4A6000E062C /* Persistence.swift in Sources */,
+				E10651A22D70B49D000E062C /* ContentView.swift in Sources */,
+				E10651AC2D70B4A6000E062C /* CyberSapientAssesment.xcdatamodeld in Sources */,
+				E10651A02D70B49D000E062C /* CyberSapientAssesmentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10651AD2D70B4A6000E062C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10651B62D70B4A6000E062C /* CyberSapientAssesmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10651B72D70B4A6000E062C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10651C02D70B4A6000E062C /* CyberSapientAssesmentUITests.swift in Sources */,
+				E10651C22D70B4A6000E062C /* CyberSapientAssesmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E10651B32D70B4A6000E062C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E106519B2D70B49D000E062C /* CyberSapientAssesment */;
+			targetProxy = E10651B22D70B4A6000E062C /* PBXContainerItemProxy */;
+		};
+		E10651BD2D70B4A6000E062C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E106519B2D70B49D000E062C /* CyberSapientAssesment */;
+			targetProxy = E10651BC2D70B4A6000E062C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E10651C32D70B4A6000E062C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E10651C42D70B4A6000E062C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E10651C62D70B4A6000E062C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CyberSapientAssesment/Preview Content\"";
+				DEVELOPMENT_TEAM = CSK3Y2RA2T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.CyberSapientAssesment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E10651C72D70B4A6000E062C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CyberSapientAssesment/Preview Content\"";
+				DEVELOPMENT_TEAM = CSK3Y2RA2T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.CyberSapientAssesment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E10651C92D70B4A6000E062C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CSK3Y2RA2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.CyberSapientAssesmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyberSapientAssesment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CyberSapientAssesment";
+			};
+			name = Debug;
+		};
+		E10651CA2D70B4A6000E062C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CSK3Y2RA2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.CyberSapientAssesmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyberSapientAssesment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CyberSapientAssesment";
+			};
+			name = Release;
+		};
+		E10651CC2D70B4A6000E062C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CSK3Y2RA2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.CyberSapientAssesmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CyberSapientAssesment;
+			};
+			name = Debug;
+		};
+		E10651CD2D70B4A6000E062C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CSK3Y2RA2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.CyberSapientAssesmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CyberSapientAssesment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E10651972D70B49D000E062C /* Build configuration list for PBXProject "CyberSapientAssesment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10651C32D70B4A6000E062C /* Debug */,
+				E10651C42D70B4A6000E062C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E10651C52D70B4A6000E062C /* Build configuration list for PBXNativeTarget "CyberSapientAssesment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10651C62D70B4A6000E062C /* Debug */,
+				E10651C72D70B4A6000E062C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E10651C82D70B4A6000E062C /* Build configuration list for PBXNativeTarget "CyberSapientAssesmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10651C92D70B4A6000E062C /* Debug */,
+				E10651CA2D70B4A6000E062C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E10651CB2D70B4A6000E062C /* Build configuration list for PBXNativeTarget "CyberSapientAssesmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10651CC2D70B4A6000E062C /* Debug */,
+				E10651CD2D70B4A6000E062C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E10651AA2D70B4A6000E062C /* CyberSapientAssesment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E10651AB2D70B4A6000E062C /* CyberSapientAssesment.xcdatamodel */,
+			);
+			currentVersion = E10651AB2D70B4A6000E062C /* CyberSapientAssesment.xcdatamodel */;
+			path = CyberSapientAssesment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E10651942D70B49D000E062C /* Project object */;
+}
