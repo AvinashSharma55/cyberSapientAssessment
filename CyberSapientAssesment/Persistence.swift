@@ -13,15 +13,36 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+        
+        let priorities = ["3-Low", "2-Medium", "1-High"]
+        
+        let titles = [
+            "Complete project documentation",
+            "Prepare presentation slides",
+            "Schedule team meeting",
+            "Review code changes",
+            "Submit expense report",
+            "Call client about requirements",
+            "Update project timeline",
+            "Research new technologies",
+            "Fix UI bugs in the app",
+            "Respond to emails"
+        ]
+        
+        for i in 0..<10 {
+            let newItem = TaskItem(context: viewContext)
+            newItem.taskTitle = titles[i]
+            newItem.taskDescription = "This is a sample task description for task #\(i+1). It provides more details about what needs to be done."
+            newItem.taskPriority = priorities[i % 3]
+            newItem.taskDueDate = Date().addingTimeInterval(Double(i * 24 * 60 * 60)) // Each task due one day later
+            newItem.isCompleted = i % 3 == 0 // Every third task is completed
+            newItem.createdAt = Date().addingTimeInterval(-Double(i * 12 * 60 * 60)) // Created at different times
+            newItem.order = Int32(i)
         }
+        
         do {
             try viewContext.save()
         } catch {
-            // Replace this implementation with code to handle the error appropriately.
-            // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
             let nsError = error as NSError
             fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
         }
@@ -37,9 +58,6 @@ struct PersistenceController {
         }
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-
                 /*
                  Typical reasons for an error here include:
                  * The parent directory does not exist, cannot be created, or disallows writing.
