@@ -104,15 +104,16 @@ The project includes UI tests to verify:
 ## Future Improvements
 
 - Add categories/tags for tasks
-- Implement recurring tasks
 - Add notifications/reminders
 - Cloud synchronization
 - More detailed statistics and insights
 - Enhanced search capabilities
 - Additional themes and customization options
+- Remove warnings for non-compatible functions
+- Improve Test Cases, As not all are passing.
 
 ## Requirements
 
-- iOS 18+
+- iOS 17.5+
 - Swift 5.10
-- Xcode 16+ 
+- Xcode 15+

@@ -30,6 +30,7 @@
 		E10652052D70C342000E062C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10652042D70C342000E062C /* Assets.xcassets */; };
 		E10652082D70C796000E062C /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10652062D70C796000E062C /* View+Extensions.swift */; };
 		E106520A2D721673000E062C /* TaskManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10652092D721672000E062C /* TaskManagerUITests.swift */; };
+		E127C8982D72F5AA008BC57B /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = E127C8972D72F5AA008BC57B /* Utils */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		E10652042D70C342000E062C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CyberSapientAssesment/Assets.xcassets; sourceTree = "<group>"; };
 		E10652062D70C796000E062C /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		E10652092D721672000E062C /* TaskManagerUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManagerUITests.swift; sourceTree = "<group>"; };
+		E127C8972D72F5AA008BC57B /* Utils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Utils; path = CyberSapientAssesment/Model/Utils; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +129,9 @@
 		E106519E2D70B49D000E062C /* CyberSapientAssesment */ = {
 			isa = PBXGroup;
 			children = (
+				E127C89B2D72F5EA008BC57B /* Utilities */,
 				E10652072D70C796000E062C /* Extensions */,
 				E10651E12D70C081000E062C /* Model */,
-				E10651ED2D70C0FF000E062C /* Utilities */,
 				E10651EF2D70C106000E062C /* ViewModels */,
 				E10651F92D70C10E000E062C /* Views */,
 				E106519F2D70B49D000E062C /* CyberSapientAssesmentApp.swift */,
@@ -170,18 +172,12 @@
 		E10651E12D70C081000E062C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E127C8972D72F5AA008BC57B /* Utils */,
 				E10651EB2D70C0E9000E062C /* TaskItem+CoreDataProperties.swift */,
 				E10651E92D70C0E1000E062C /* TaskItem+CoreDataClass.swift */,
 				E10651E02D70C081000E062C /* TaskPriority.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		E10651ED2D70C0FF000E062C /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 		E10651EF2D70C106000E062C /* ViewModels */ = {
@@ -213,6 +209,13 @@
 				E10652062D70C796000E062C /* View+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E127C89B2D72F5EA008BC57B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E127C8982D72F5AA008BC57B /* Utils in Resources */,
 				E10652052D70C342000E062C /* Assets.xcassets in Resources */,
 				E10651A72D70B4A6000E062C /* Preview Assets.xcassets in Resources */,
 			);
